@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+
+# ML artifacts
+models/*.pkl
+models/*.pth
+*.h5
+mlruns/
+
+# Data
+data/*.csv
+data/*.parquet
+!data/reference.csv
+
+# DVC
+.dvc/cache
+.dvc/tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Windows
+desktop.ini
